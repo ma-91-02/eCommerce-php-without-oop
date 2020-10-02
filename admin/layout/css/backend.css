@@ -1,0 +1,323 @@
+/*
+=====================================
+==== **** Start Main Rulez ***** ====
+=====================================
+*/
+
+body {
+  background-color: #f4f4f4;
+}
+.asterisk {
+  font-size: 30px;
+  position: absolute;
+  right: 23px;
+  top: 0px;
+  color: red;
+}
+/*
+=====================================
+==== **** Start Login Form ***** ====
+=====================================
+*/
+.login {
+  width: 300px;
+  margin: 100px auto;
+}
+.login h4 {
+  color: #666;
+}
+.login input {
+  margin-bottom: 10px;
+}
+.login .form-control {
+  background-color: #eaeaea;
+}
+/*
+=================================
+==== **** Start Navbar ***** ====
+=================================
+*/
+.navbar {
+  /* margin:0; */
+  /* padding:0; */
+}
+.dropdown-menu {
+  background-color: #343a40;
+  border: none;
+}
+.dropdown-menu a {
+  color: #999c8d;
+}
+/*
+=========================================
+==== **** Start Bootstrap Edit ***** ====
+=========================================
+*/
+
+.form-control {
+  position: relative;
+}
+
+/*
+====================================
+==== **** Start Dashboard ***** ====
+====================================
+*/
+.home-stats .stat {
+  padding: 20px;
+  font-size: 15px;
+  color: #f4f4f4;
+  border-radius: 5px;
+  position:relative;
+  overflow:hidden;
+}
+.home-stats .stat i {
+  position: absolute;
+    font-size: 80px;
+    top: 39px;
+    left: 25px;
+}
+.home-stats .stat .info {
+  float:right;
+}
+.home-stats .stat a {
+  color: #f4f4f4;
+}
+.home-stats .stat a:hover {
+  text-decoration: none;
+  font-size: 65px;
+}
+
+.home-stats .stat span {
+  display: block;
+  font-size: 60px;
+}
+.home-stats .st-members {
+  background-color: #eccc68;
+}
+.home-stats .st-pending {
+  background-color: #ff7f50;
+}
+.home-stats .st-items {
+  background-color: #ff6b81;
+}
+.home-stats .st-comments {
+  background-color: #a4b0be;
+}
+.latest {
+  margin-top: 30px;
+}
+.latest .toggle-info {
+  color:#999;
+}
+.latest .toggle-info:hover{
+  color:#444;
+  cursor:pointer;
+}
+.latest-users {
+  margin-bottom: 0;
+}
+.latest-users li {
+  padding: 5px;
+  overflow: hidden;
+}
+.latest-users li:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+.latest-users .btn-success {
+  padding: 2px 8px;
+}
+.latest-users .activate {
+  padding: 2px 8px;
+  margin-right: 4px;
+}
+.latest .comment-box{
+  margin:5px 0 10px;
+}
+.latest .comment-box .member-n,
+.latest .comment-box .member-c{
+  float:left;
+}
+.latest .comment-box .member-n {
+  width:80px;
+  text-align:center;
+  margin-right:20px;
+  position:relative;
+  top:10px
+}
+.latest .comment-box .member-c{
+  width:calc(100% - 100px);
+  background-color:#efefef;
+  padding:10px; 
+  position:relative;  
+}
+.latest .comment-box .member-c:before {
+  content:"";
+  display:block;
+  position:absolute;
+  left:-30px;
+  top:8px;
+  width:0;
+  height:0;
+  border-style:solid;
+  border-color:transparent #efefef transparent transparent;
+  border-width:15px;
+}
+/*
+=======================================
+==== **** Start Members page ***** ====
+=======================================
+*/
+h1 {
+  font-size: 55px;
+  margin: 40px;
+  color: #57606f;
+  font-weight: bold;
+}
+.show-pass {
+  position: absolute;
+  font-size: 20px;
+  position: absolute;
+  right: 40px;
+  top: 9px;
+}
+.main-table {
+  box-shadow: 0 3px 10px #343a40;
+}
+.main-table td {
+  vertical-align: middle !important;
+}
+.main-table tr:first-child td {
+  background-color: #343a40;
+  color: #eaeaea;
+}
+.main-table .btn {
+  padding: 3px 10px;
+}
+.main-table .activate {
+  margin-left: 4px;
+}
+/*
+*** ======================================
+*** ==== **** Start Category page ***** ====
+*** ======================================
+*/
+.categories .card-body{
+  padding:  0px;
+}
+.categories .card-header {
+  padding:0
+}
+.categories .title{
+padding :10px;
+/* position:relative; */
+/* left:17px; */
+color:#959595;
+font-weight: bold;
+}
+.categories .option{
+  padding: 10px;
+  /* position:relative; */
+  /* left:17px; */
+  color: #959595;
+  font-weight: bold;
+}
+.categories .option a {
+  color:#888;
+  text-decoration: none;
+}
+.categories .option span {
+  color:#888;
+  text-decoration: none;
+  cursor: pointer;
+}
+.categories .option .active {
+  color:#f00;
+}
+.categories hr {
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.categories .cat {
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.categories .cat:hover{
+  background-color: #f4f4f4;
+}
+.categories .cat:hover .hidden-buttons {
+  right: 10px;
+}
+.categories .cat .hidden-buttons {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  top: 10px;
+  right: -170px;
+}
+
+.categories .cat .hidden-buttons a {
+  margin-right: 4px;
+}
+.categories .cat h3 {
+  margin: 0 ;
+  cursor: pointer;
+  color:#6a6a6a;
+  font-weight:bold;
+}
+.categories .cat .full-view p{
+  margin:10px 0;
+  color:#707070;
+}
+.categories .cat:last-of-type ~ hr {
+  display: none;
+  margin-top: 0;
+}
+.categories .cat .visibility {
+  background-color: #d35400;
+  color: #f4f4f4;
+  padding: 4px 6px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.categories .cat .commenting {
+  background-color: #d35400;
+  color: #f4f4f4;
+  padding: 4px 6px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.categories .cat .advertises {
+  background-color: #d35400;
+  color: #f4f4f4;
+  padding: 4px 6px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.categories .add-ctegory{
+  margin-top:8px;
+}
+.categories .child-head {
+  margin: 15px 0 10px;
+  font-weight:bold;
+  font-size:16px;
+  color:#22ab79;
+}
+.categories .child-cats {
+  margin: 0 ;
+}
+.categories .child-cats li {
+  margin-left:15px;
+}
+.categories .child-cats li:before {
+  content:"- "
+}
+
+.categories .show-delete{
+  color:#f00;
+  display:none;
+}
